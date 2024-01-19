@@ -12,7 +12,7 @@ int main() {
     scanf("%f", &num1);
 
     printf("Enter operation (+, -, *, /): ");
-    scanf(" %c", &operation);  // Note the space before %c to consume the newline character
+    scanf(" %c", &operation);  
 
     printf("Enter second number: ");
     scanf("%f", &num2);
@@ -27,7 +27,7 @@ int main() {
             break;
         default:
             printf("Error: Invalid operation\n");
-            return 1;  // Exit with an error code
+            return 1;  
     }
 
     // Display the result
