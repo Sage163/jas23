@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function prototypes
+
 float add(float num1, float num2);
 float subtract(float num1, float num2);
 int main() {
